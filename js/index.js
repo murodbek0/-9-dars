@@ -91,7 +91,20 @@
 
 // 4 misol
 
-// shu misolga shumadim 
+const students = [
+    {name: 'Ali', grade: 85},
+    {name: 'Vali', grade: 92},
+    {name: 'Hasan', grade: 78}
+  ];
+
+  let res = students.map(function (value) {
+    let natija = value.grade += 10
+
+    return natija
+    
+  })
+
+  console.log(res);
 
 // filter
 
